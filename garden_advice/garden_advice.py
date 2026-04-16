@@ -1,15 +1,18 @@
 # garden_advice.py
 
-def get_advice():
-    # TODO: Replace hardcoded values with a config file or user input
-    plant = "Tomato"
-    soil_moisture = "Dry"
-    
-    # TODO: Create a separate function to handle advice logic
-    if plant == "Tomato" and soil_moisture == "Dry":
-        print("Water your tomatoes immediately.")
-    else:
-        print("Check soil again tomorrow.")
+## API Documentation
 
-# TODO: Add proper documentation/docstrings
-get_advice()
+### GET /
+Home page of application
+
+### GET /products
+Displays product list
+
+### GET /about
+About page content
+
+### GET /login
+Login page for user authentication
+
+### GET /register
+User registration form with validation
